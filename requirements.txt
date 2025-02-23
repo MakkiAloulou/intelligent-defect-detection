@@ -4,3 +4,4 @@ pandas
 inference_sdk
 matplotlib
 opencv-python
+inference-sdk
