@@ -46,9 +46,9 @@ streamlit run app.py
 
 ## 📸 Demo
 
-🎥 Video Demo: https://drive.google.com/file/d/1mckr5D52ypVfKbsnaXuU_UjkKxIVPiGv/view?usp=sharing
+🎥 Video Demo: [Demo](https://drive.google.com/file/d/1S3Vdk3KQJHEaCqO31HFnz_ZVzjej_4O-/view?usp=sharing)
 
-🔗 Live Demo: https://intelligent-defect-detection.streamlit.app/
+🔗 Live Demo: [Our Interactive Interface](https://intelligent-defect-detection.streamlit.app/)
 
 ## 📩 Contact
 
