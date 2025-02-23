@@ -1,0 +1,8 @@
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="tfdqnOBSXkhNxZVfysgD")
+project = rf.workspace("dataquest").project("intelligent-defect-detection")
+version = project.version(2)
+dataset = version.download("yolov8-obb")
+                
