@@ -98,7 +98,7 @@ elif selected_option == "Results":
         image = Image.open(st.session_state.uploaded_image)
         st.write("---")
         st.write("### 🖼️ Original Image")
-        st.image(image, use_column_width=True)
+        st.image(image, use_container_width=True)
 
         # Draw bounding boxes and add row indices inside the box
         draw = ImageDraw.Draw(image)
@@ -121,7 +121,7 @@ elif selected_option == "Results":
 
         st.write("---")
         st.write("### 🛠️ Detected Defects")
-        st.image(image, use_column_width=True)
+        st.image(image, use_container_width=True)
         st.write("---")
         inference_result = st.session_state.inference_result
 
