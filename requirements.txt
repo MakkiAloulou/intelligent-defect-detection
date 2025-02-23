@@ -1,6 +1,5 @@
 streamlit-option-menu
 streamlit
 pandas
-PIL
 inference_sdk
 matplotlib
