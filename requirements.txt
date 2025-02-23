@@ -4,5 +4,4 @@ pandas
 inference_sdk
 matplotlib
 opencv-python-headless
-opencv-python==4.5.1.48
 inference-sdk
