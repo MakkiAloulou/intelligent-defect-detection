@@ -50,14 +50,6 @@ if selected_option == "Home":
     🔹 **Start now by uploading an image!**  
     """)
 
-    if st.button("📂 Analyze an Image"):
-        if st.session_state.analysis_done:
-            st.session_state.analysis_done = False
-        if st.session_state.uploaded_image:
-            st.session_state.uploaded_image = None
-        st.session_state.selected_page = "Upload"
-        st.rerun()
-
 # Upload Page
 elif selected_option == "Upload":
     if st.session_state.analysis_done:
