@@ -3,5 +3,6 @@ streamlit
 pandas
 inference_sdk
 matplotlib
-opencv-python==4.5.5.64
+opencv-python-headless
+opencv-python==4.5.1.48
 inference-sdk
