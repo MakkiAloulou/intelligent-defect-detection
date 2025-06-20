@@ -160,14 +160,11 @@ elif selected_option == "Results":
 
 # Contact Page
 elif selected_option == "Contact":
-    st.title("📞 Contact Us")
-    st.write("For any inquiries or support, feel free to contact us via email or phone.")
+    st.title("📞 Contact")
+    st.write("For any inquiries or support, feel free to contact me via email or phone.")
     st.write("---")
     coordinates = {
         "Makki Aloulou": {"email": "makkialoulou2005@gmail.com", "phone": "28716169"},
-        "Mohamed Kallel": {"email": "kallelmohamed094@gmail.com", "phone": "21300465"},
-        "Yessin Kolsi": {"email": "yassinex1928@gmail.com", "phone": "55497772"},
-        "Ahmed Omar Ben Hazem": {"email": "benhazem.ahmedomar@gmail.com", "phone": "53724545"}
     }
 
     for name, contact in coordinates.items():

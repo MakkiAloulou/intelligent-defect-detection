@@ -1,7 +1,6 @@
 streamlit-option-menu
 streamlit
 pandas
-inference-sdk
+inference_sdk
 matplotlib
 opencv-python-headless
-inference-sdk
